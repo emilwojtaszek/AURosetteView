@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'AURosetteViewLib' target in the 'AURosetteViewLib' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

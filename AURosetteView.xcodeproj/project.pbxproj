@@ -20,6 +20,16 @@
 		2029561615949DE100F1A26B /* Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2029561515949DE100F1A26B /* Bundle.bundle */; };
 		2029562115949F2000F1A26B /* AURosetteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029561915949E4E00F1A26B /* AURosetteItem.m */; };
 		2029562215949F2000F1A26B /* AURosetteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029561B15949E4E00F1A26B /* AURosetteView.m */; };
+		202956541594AB1400F1A26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955C815949B8500F1A26B /* Foundation.framework */; };
+		2029565A1594AB1400F1A26B /* AURosetteViewLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 202956591594AB1400F1A26B /* AURosetteViewLib.m */; };
+		2029565F1594AB2300F1A26B /* AURosetteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029561915949E4E00F1A26B /* AURosetteItem.m */; };
+		202956601594AB2300F1A26B /* AURosetteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029561B15949E4E00F1A26B /* AURosetteView.m */; };
+		202956611594AB3000F1A26B /* AURosetteItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 2029561815949E4E00F1A26B /* AURosetteItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202956621594AB3000F1A26B /* AURosetteView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2029561A15949E4E00F1A26B /* AURosetteView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		202956631594AB4200F1A26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955C615949B8500F1A26B /* UIKit.framework */; };
+		202956641594AB4A00F1A26B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955E715949BC500F1A26B /* QuartzCore.framework */; };
+		202956651594AB4F00F1A26B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955EA15949BCA00F1A26B /* CoreImage.framework */; };
+		202956791594ADA400F1A26B /* AURosetteViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 202956581594AB1400F1A26B /* AURosetteViewLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +53,10 @@
 		2029561915949E4E00F1A26B /* AURosetteItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AURosetteItem.m; path = RosetteView/AURosetteItem.m; sourceTree = "<group>"; };
 		2029561A15949E4E00F1A26B /* AURosetteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AURosetteView.h; path = RosetteView/AURosetteView.h; sourceTree = "<group>"; };
 		2029561B15949E4E00F1A26B /* AURosetteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AURosetteView.m; path = RosetteView/AURosetteView.m; sourceTree = "<group>"; };
+		202956531594AB1400F1A26B /* libAURosetteViewLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAURosetteViewLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		202956571594AB1400F1A26B /* AURosetteViewLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AURosetteViewLib-Prefix.pch"; sourceTree = "<group>"; };
+		202956581594AB1400F1A26B /* AURosetteViewLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AURosetteViewLib.h; sourceTree = "<group>"; };
+		202956591594AB1400F1A26B /* AURosetteViewLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AURosetteViewLib.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		202956501594AB1400F1A26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202956651594AB4F00F1A26B /* CoreImage.framework in Frameworks */,
+				202956641594AB4A00F1A26B /* QuartzCore.framework in Frameworks */,
+				202956631594AB4200F1A26B /* UIKit.framework in Frameworks */,
+				202956541594AB1400F1A26B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -65,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				202955CC15949B8500F1A26B /* Classes */,
+				202956551594AB1400F1A26B /* AURosetteViewLib */,
 				202955C515949B8500F1A26B /* Frameworks */,
 				202955EC15949C1200F1A26B /* Resources */,
 				202955C315949B8500F1A26B /* Products */,
@@ -75,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				202955C215949B8500F1A26B /* AURosetteView.app */,
+				202956531594AB1400F1A26B /* libAURosetteViewLib.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,7 +163,38 @@
 			name = RosetteView;
 			sourceTree = "<group>";
 		};
+		202956551594AB1400F1A26B /* AURosetteViewLib */ = {
+			isa = PBXGroup;
+			children = (
+				202956581594AB1400F1A26B /* AURosetteViewLib.h */,
+				202956591594AB1400F1A26B /* AURosetteViewLib.m */,
+				202956561594AB1400F1A26B /* Supporting Files */,
+			);
+			path = AURosetteViewLib;
+			sourceTree = "<group>";
+		};
+		202956561594AB1400F1A26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				202956571594AB1400F1A26B /* AURosetteViewLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		202956511594AB1400F1A26B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202956611594AB3000F1A26B /* AURosetteItem.h in Headers */,
+				202956791594ADA400F1A26B /* AURosetteViewLib.h in Headers */,
+				202956621594AB3000F1A26B /* AURosetteView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		202955C115949B8500F1A26B /* AURosetteView */ = {
@@ -155,6 +213,24 @@
 			productName = AURosetteView;
 			productReference = 202955C215949B8500F1A26B /* AURosetteView.app */;
 			productType = "com.apple.product-type.application";
+		};
+		202956521594AB1400F1A26B /* AURosetteViewLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2029565D1594AB1400F1A26B /* Build configuration list for PBXNativeTarget "AURosetteViewLib" */;
+			buildPhases = (
+				2029564F1594AB1400F1A26B /* Sources */,
+				202956501594AB1400F1A26B /* Frameworks */,
+				202956511594AB1400F1A26B /* Headers */,
+				202956771594AC8F00F1A26B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AURosetteViewLib;
+			productName = AURosetteViewLib;
+			productReference = 202956531594AB1400F1A26B /* libAURosetteViewLib.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -177,6 +253,7 @@
 			projectRoot = "";
 			targets = (
 				202955C115949B8500F1A26B /* AURosetteView */,
+				202956521594AB1400F1A26B /* AURosetteViewLib */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +271,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		202956771594AC8F00F1A26B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = "/bin/sh Scripts/CopyHeadersToLegacyBuildDir.command";
+			shellScript = "Type a script or drag a script file from your workspace";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		202955BE15949B8500F1A26B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -204,6 +297,16 @@
 				202955D315949B8500F1A26B /* main.m in Sources */,
 				202955D715949B8500F1A26B /* AppDelegate.m in Sources */,
 				202955DA15949B8500F1A26B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2029564F1594AB1400F1A26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2029565F1594AB2300F1A26B /* AURosetteItem.m in Sources */,
+				202956601594AB2300F1A26B /* AURosetteView.m in Sources */,
+				2029565A1594AB1400F1A26B /* AURosetteViewLib.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +380,7 @@
 		202955E115949B8500F1A26B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AURosetteView/AURosetteView-Prefix.pch";
 				INFOPLIST_FILE = "AURosetteView/AURosetteView-Info.plist";
@@ -288,11 +392,44 @@
 		202955E215949B8500F1A26B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AURosetteView/AURosetteView-Prefix.pch";
 				INFOPLIST_FILE = "AURosetteView/AURosetteView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2029565B1594AB1400F1A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				DSTROOT = /tmp/AURosetteViewLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURosetteViewLib/AURosetteViewLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/AURosetteView/private/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/AURosetteView;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		2029565C1594AB1400F1A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_OBJCPP_ARC_ABI = YES;
+				DSTROOT = /tmp/AURosetteViewLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURosetteViewLib/AURosetteViewLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = include/AURosetteView/private/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/AURosetteView;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
@@ -313,6 +450,15 @@
 			buildConfigurations = (
 				202955E115949B8500F1A26B /* Debug */,
 				202955E215949B8500F1A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2029565D1594AB1400F1A26B /* Build configuration list for PBXNativeTarget "AURosetteViewLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2029565B1594AB1400F1A26B /* Debug */,
+				2029565C1594AB1400F1A26B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

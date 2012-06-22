@@ -5,6 +5,7 @@
 //
 
 //Frameworks
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 @interface AURosetteItem : NSObject
