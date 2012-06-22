@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		202955C715949B8500F1A26B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955C615949B8500F1A26B /* UIKit.framework */; };
+		202955C915949B8500F1A26B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955C815949B8500F1A26B /* Foundation.framework */; };
+		202955CB15949B8500F1A26B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955CA15949B8500F1A26B /* CoreGraphics.framework */; };
+		202955D115949B8500F1A26B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 202955CF15949B8500F1A26B /* InfoPlist.strings */; };
+		202955D315949B8500F1A26B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 202955D215949B8500F1A26B /* main.m */; };
+		202955D715949B8500F1A26B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 202955D615949B8500F1A26B /* AppDelegate.m */; };
+		202955DA15949B8500F1A26B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202955D915949B8500F1A26B /* ViewController.m */; };
+		202955DD15949B8500F1A26B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 202955DB15949B8500F1A26B /* ViewController.xib */; };
+		202955E815949BC500F1A26B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955E715949BC500F1A26B /* QuartzCore.framework */; };
+		202955EB15949BCA00F1A26B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 202955EA15949BCA00F1A26B /* CoreImage.framework */; };
+		2029561615949DE100F1A26B /* Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2029561515949DE100F1A26B /* Bundle.bundle */; };
+		2029562115949F2000F1A26B /* AURosetteItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029561915949E4E00F1A26B /* AURosetteItem.m */; };
+		2029562215949F2000F1A26B /* AURosetteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029561B15949E4E00F1A26B /* AURosetteView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		202955C215949B8500F1A26B /* AURosetteView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AURosetteView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		202955C615949B8500F1A26B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		202955C815949B8500F1A26B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		202955CA15949B8500F1A26B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		202955CE15949B8500F1A26B /* AURosetteView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AURosetteView-Info.plist"; sourceTree = "<group>"; };
+		202955D015949B8500F1A26B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		202955D215949B8500F1A26B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		202955D415949B8500F1A26B /* AURosetteView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AURosetteView-Prefix.pch"; sourceTree = "<group>"; };
+		202955D515949B8500F1A26B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		202955D615949B8500F1A26B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		202955D815949B8500F1A26B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		202955D915949B8500F1A26B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		202955DC15949B8500F1A26B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		202955E715949BC500F1A26B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		202955EA15949BCA00F1A26B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		2029561515949DE100F1A26B /* Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Bundle.bundle; sourceTree = "<group>"; };
+		2029561815949E4E00F1A26B /* AURosetteItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AURosetteItem.h; path = RosetteView/AURosetteItem.h; sourceTree = "<group>"; };
+		2029561915949E4E00F1A26B /* AURosetteItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AURosetteItem.m; path = RosetteView/AURosetteItem.m; sourceTree = "<group>"; };
+		2029561A15949E4E00F1A26B /* AURosetteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AURosetteView.h; path = RosetteView/AURosetteView.h; sourceTree = "<group>"; };
+		2029561B15949E4E00F1A26B /* AURosetteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AURosetteView.m; path = RosetteView/AURosetteView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202955BF15949B8500F1A26B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202955EB15949BCA00F1A26B /* CoreImage.framework in Frameworks */,
+				202955E815949BC500F1A26B /* QuartzCore.framework in Frameworks */,
+				202955C715949B8500F1A26B /* UIKit.framework in Frameworks */,
+				202955C915949B8500F1A26B /* Foundation.framework in Frameworks */,
+				202955CB15949B8500F1A26B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		202955B715949B8500F1A26B = {
+			isa = PBXGroup;
+			children = (
+				202955CC15949B8500F1A26B /* Classes */,
+				202955C515949B8500F1A26B /* Frameworks */,
+				202955EC15949C1200F1A26B /* Resources */,
+				202955C315949B8500F1A26B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		202955C315949B8500F1A26B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				202955C215949B8500F1A26B /* AURosetteView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		202955C515949B8500F1A26B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				202955EA15949BCA00F1A26B /* CoreImage.framework */,
+				202955E715949BC500F1A26B /* QuartzCore.framework */,
+				202955C615949B8500F1A26B /* UIKit.framework */,
+				202955C815949B8500F1A26B /* Foundation.framework */,
+				202955CA15949B8500F1A26B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		202955CC15949B8500F1A26B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				202955D515949B8500F1A26B /* AppDelegate.h */,
+				202955D615949B8500F1A26B /* AppDelegate.m */,
+				202955D815949B8500F1A26B /* ViewController.h */,
+				202955D915949B8500F1A26B /* ViewController.m */,
+				2029561715949E1A00F1A26B /* RosetteView */,
+				202955CD15949B8500F1A26B /* Supporting Files */,
+			);
+			name = Classes;
+			path = AURosetteView;
+			sourceTree = "<group>";
+		};
+		202955CD15949B8500F1A26B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				202955DB15949B8500F1A26B /* ViewController.xib */,
+				202955CE15949B8500F1A26B /* AURosetteView-Info.plist */,
+				202955CF15949B8500F1A26B /* InfoPlist.strings */,
+				202955D215949B8500F1A26B /* main.m */,
+				202955D415949B8500F1A26B /* AURosetteView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		202955EC15949C1200F1A26B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2029561515949DE100F1A26B /* Bundle.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2029561715949E1A00F1A26B /* RosetteView */ = {
+			isa = PBXGroup;
+			children = (
+				2029561815949E4E00F1A26B /* AURosetteItem.h */,
+				2029561915949E4E00F1A26B /* AURosetteItem.m */,
+				2029561A15949E4E00F1A26B /* AURosetteView.h */,
+				2029561B15949E4E00F1A26B /* AURosetteView.m */,
+			);
+			name = RosetteView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		202955C115949B8500F1A26B /* AURosetteView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 202955E015949B8500F1A26B /* Build configuration list for PBXNativeTarget "AURosetteView" */;
+			buildPhases = (
+				202955BE15949B8500F1A26B /* Sources */,
+				202955BF15949B8500F1A26B /* Frameworks */,
+				202955C015949B8500F1A26B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AURosetteView;
+			productName = AURosetteView;
+			productReference = 202955C215949B8500F1A26B /* AURosetteView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		202955B915949B8500F1A26B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 202955BC15949B8500F1A26B /* Build configuration list for PBXProject "AURosetteView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 202955B715949B8500F1A26B;
+			productRefGroup = 202955C315949B8500F1A26B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				202955C115949B8500F1A26B /* AURosetteView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		202955C015949B8500F1A26B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202955D115949B8500F1A26B /* InfoPlist.strings in Resources */,
+				202955DD15949B8500F1A26B /* ViewController.xib in Resources */,
+				2029561615949DE100F1A26B /* Bundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		202955BE15949B8500F1A26B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2029562115949F2000F1A26B /* AURosetteItem.m in Sources */,
+				2029562215949F2000F1A26B /* AURosetteView.m in Sources */,
+				202955D315949B8500F1A26B /* main.m in Sources */,
+				202955D715949B8500F1A26B /* AppDelegate.m in Sources */,
+				202955DA15949B8500F1A26B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		202955CF15949B8500F1A26B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202955D015949B8500F1A26B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		202955DB15949B8500F1A26B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				202955DC15949B8500F1A26B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		202955DE15949B8500F1A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		202955DF15949B8500F1A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		202955E115949B8500F1A26B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURosetteView/AURosetteView-Prefix.pch";
+				INFOPLIST_FILE = "AURosetteView/AURosetteView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		202955E215949B8500F1A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AURosetteView/AURosetteView-Prefix.pch";
+				INFOPLIST_FILE = "AURosetteView/AURosetteView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		202955BC15949B8500F1A26B /* Build configuration list for PBXProject "AURosetteView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202955DE15949B8500F1A26B /* Debug */,
+				202955DF15949B8500F1A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		202955E015949B8500F1A26B /* Build configuration list for PBXNativeTarget "AURosetteView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202955E115949B8500F1A26B /* Debug */,
+				202955E215949B8500F1A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 202955B915949B8500F1A26B /* Project object */;
+}
