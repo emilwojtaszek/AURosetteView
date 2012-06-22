@@ -25,6 +25,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    [self.view setBackgroundColor:[UIColor whiteColor]];
+    
     UIImage* twitterImage = [UIImage imageNamed:@"/Bundle.bundle/Resources/rosetta_twitter.png"];
     UIImage* facebookImage = [UIImage imageNamed:@"/Bundle.bundle/Resources/rosetta_facebook.png"];
     UIImage* mailImage = [UIImage imageNamed:@"/Bundle.bundle/Resources/rosetta_mail.png"];
