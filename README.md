@@ -4,4 +4,4 @@ AURosetteView
 AURosetteView
 
 TODO: 
-- button highlite
+- button highlight

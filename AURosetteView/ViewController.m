@@ -34,19 +34,19 @@
 
     // create rosette items
     AURosetteItem* twitterItem = [[AURosetteItem alloc] initWithNormalImage:twitterImage 
-                                                             highlitedImage:nil 
+                                                           highlightedImage:nil 
                                                                      target:self 
                                                                      action:@selector(twitterAction:)];
 
     AURosetteItem* facebookItem = [[AURosetteItem alloc] initWithNormalImage:facebookImage 
-                                                             highlitedImage:nil 
-                                                                     target:self 
-                                                                     action:@selector(facebookAction:)];
+                                                            highlightedImage:nil 
+                                                                      target:self 
+                                                                      action:@selector(facebookAction:)];
 
     AURosetteItem* mailItem = [[AURosetteItem alloc] initWithNormalImage:mailImage 
-                                                             highlitedImage:nil 
-                                                                     target:self 
-                                                                     action:@selector(mailAction:)];
+                                                        highlightedImage:nil 
+                                                                  target:self 
+                                                                  action:@selector(mailAction:)];
 
     // create rosette view
     AURosetteView* rosette = [[AURosetteView alloc] initWithItems: [NSArray arrayWithObjects: twitterItem, facebookItem, mailItem, nil]];

@@ -10,16 +10,16 @@
 @synthesize action = _action;
 @synthesize target = _target;
 @synthesize normalImage =_normalImage;
-@synthesize highlitedImage = _highlitedImage;
+@synthesize highlightedImage = _highlightedImage;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-- (id)initWithNormalImage:(UIImage *)normalImage highlitedImage:(UIImage *)highlitedImage target:(id)target action:(SEL)action {
+- (id)initWithNormalImage:(UIImage *)normalImage highlightedImage:(UIImage *)highlightedImage target:(id)target action:(SEL)action {
     self = [super init];
     if (self) {
         _action = action;
         _target = target;
         _normalImage = normalImage;
-        _highlitedImage = highlitedImage;
+        _highlightedImage = highlightedImage;
     }
     return self;
 }

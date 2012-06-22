@@ -13,8 +13,8 @@
 @property (nonatomic) SEL action;
 @property (nonatomic, assign) id target;
 @property (nonatomic, strong) UIImage* normalImage;
-@property (nonatomic, strong) UIImage* highlitedImage;
+@property (nonatomic, strong) UIImage* highlightedImage;
 
-- (id)initWithNormalImage:(UIImage *)normalImage highlitedImage:(UIImage *)highlitedImage target:(id)target action:(SEL)action;
+- (id)initWithNormalImage:(UIImage *)normalImage highlightedImage:(UIImage *)highlightedImage target:(id)target action:(SEL)action;
 
 @end
