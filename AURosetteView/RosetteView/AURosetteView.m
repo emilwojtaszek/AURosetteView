@@ -36,6 +36,8 @@
         // set default
         _on = NO;
         
+        _autocloseAfterTapItem = YES;
+        
         // recognize taps when wheel is expanded
         _tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self 
                                                                         action:@selector(tapAction:)];
@@ -264,6 +266,10 @@ CGFloat const kApertureAngle = 53.0f;
         
         CGPoint point = [tapGestureRecognizer locationInView:self];
         if (CGPathContainsPoint(bezierPath.CGPath, NULL, point, NO)) {
+            if (self.autocloseAfterTapItem)
+            {
+                [self toggleWithAnimation:YES]; 
+            }
             [obj.target performSelector:obj.action withObject:self];
         }
     }];

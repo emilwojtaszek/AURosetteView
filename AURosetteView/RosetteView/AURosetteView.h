@@ -32,6 +32,9 @@
  */
 @property (nonatomic, assign, getter = isOn) BOOL on;
 
+@property BOOL autocloseAfterTapItem;
+
+
 - (id)initWithItems:(NSArray*)items;
 
 - (void)setOn:(BOOL)on animated:(BOOL)animated;
