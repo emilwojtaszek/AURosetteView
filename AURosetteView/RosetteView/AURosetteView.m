@@ -177,7 +177,7 @@ CGFloat const kApertureAngle = 53.0f;
         imageLayer.anchorPoint = CGPointMake(0.5f, 0.5f);
         imageLayer.position = CGPointMake(CGRectGetMidX(self.bounds), CGRectGetMidY(self.bounds));
         imageLayer.transform = CATransform3DMakeScale(0.01f, 0.01f, 1.0f);
-        imageLayer.opacity = 0.6f;
+        imageLayer.opacity = 1.0f;
         
         [self.layer addSublayer:imageLayer];
         [_imagesLayers addObject:imageLayer];        
@@ -288,7 +288,7 @@ CGFloat const kApertureAngle = 53.0f;
         [leafAnimation setToValue:[NSValue valueWithCATransform3D:transform]];
         [leafAnimation setFillMode:kCAFillModeForwards]; 
         [leafAnimation setRemovedOnCompletion: NO];
-        [leafAnimation setDuration:0.6f];
+        [leafAnimation setDuration:0.4f];
         
         layer = [_leavesLayers objectAtIndex:i];
         [layer addAnimation:leafAnimation forKey:@"expand"];
@@ -310,7 +310,7 @@ CGFloat const kApertureAngle = 53.0f;
         [group setAnimations:[NSArray arrayWithObjects:scaleImageAnimation, positionImageAnimation, nil]];
         [group setFillMode:kCAFillModeForwards]; 
         [group setRemovedOnCompletion: NO];
-        [group setDuration:0.3f];
+        [group setDuration:0.2f];
         [group setBeginTime:CACurrentMediaTime () + 0.27f];
         
         layer = [_imagesLayers objectAtIndex:i];
